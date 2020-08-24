@@ -33,7 +33,7 @@ class Channel extends Movie {
 
 let movie = new Movie('Suspicious Partner','60 minutes','Romance');
 let soundtrack = new Soundtrack ('Suspicious Partner','60 minutes','Romance','How do you fee','Ridho Majid');
-let channel = new Channel ('Suspicious Partner','Netflix');
+let channel = new Channel ('Suspicious Partner', '60 minutes', 'Romance','Netflix');
 
 console.log(movie.watch());
 console.log(soundtrack.movieSoundtrack());
